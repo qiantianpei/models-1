@@ -19,6 +19,9 @@ from __future__ import division
 # from __future__ import google_type_annotations
 from __future__ import print_function
 
+import sys
+sys.path.append("/home/tianpei/workspace/tf-models")
+
 from absl import app
 from absl import flags
 from absl import logging
